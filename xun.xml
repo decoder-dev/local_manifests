@@ -13,8 +13,8 @@
 
   <!-- Device, vendor and prebuilt kernel -->
   <project path="device/xiaomi/xun" name="device_xiaomi_xun" remote="decoder-dev" revision="lineage-24.0" />
-  <project path="device/xiaomi/xun-kernel" name="android_device_xiaomi_xun-kernel" remote="xun-res" revision="lineage-23.2" clone-depth="1" />
-  <project path="vendor/xiaomi/xun" name="android_vendor_xiaomi_xun" remote="xun-res" revision="lineage-23.2" clone-depth="1" />
+  <project path="device/xiaomi/xun-kernel" name="device_xiaomi_xun-kernel" remote="decoder-dev" revision="lineage-24.0" clone-depth="1" />
+  <project path="vendor/xiaomi/xun" name="vendor_xiaomi_xun" remote="decoder-dev" revision="lineage-24.0" clone-depth="1" />
 
   <!-- Xiaomi common HALs and sepolicy -->
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-24.0" />
@@ -48,5 +48,5 @@
   <project path="hardware/qcom-caf/sm6225/audio/primary-hal" name="android_hardware_qcom_audio-ar" groups="qcom" remote="xun-res" revision="lineage-23.2-caf-sm6225" />
   <project path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom" remote="xun-res" revision="lineage-23.2-caf-sm6225" />
   <project path="hardware/qcom-caf/sm6225/dataipa" name="LineageOS/android_vendor_qcom_opensource_dataipa" groups="qcom" remote="github" revision="lineage-24.0-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm6225/display" name="hardware_qcom_display" groups="qcom" remote="xun-res" revision="lineage-23.2-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/display" name="hardware_qcom_display" groups="qcom" remote="decoder-dev" revision="lineage-24.0-caf-sm6225" />
 </manifest>
