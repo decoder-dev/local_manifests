@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Software face unlock (LMODroid FaceUnlock, TFLite based, Class 2 / weak).
+     Needs the face unlock commits in frameworks/base (lineage-24.0-faceunlock).
+-->
+<manifest>
+  <remote name="lmodroid"
+          fetch="https://github.com/LMODroid" />
+
+  <project path="packages/apps/FaceUnlock" name="platform_packages_apps_FaceUnlock" remote="lmodroid" revision="seventeen-qpr0" />
+  <project path="external/yifan" name="platform_external_yifan" remote="lmodroid" revision="seventeen-qpr0" clone-depth="1" />
+</manifest>
