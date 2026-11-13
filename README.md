@@ -2,7 +2,7 @@
 
 The `lineage-24.0-fog` branch publishes the fog stability sources used on 2026-11-13.
 It includes the existing xun/shared HAL definitions. The xun source trees are unchanged.
-The changed fog, Dolby, FaceUnlock and framework projects are pinned to the revisions below.
+The changed fog, Dolby, FaceUnlock, framework and Settings projects are pinned to the revisions below.
 Other LineageOS/shared projects still follow their configured upstream branches.
 
 For a fresh source checkout:
@@ -28,6 +28,8 @@ For xun, select `breakfast xun` instead. Review the shared FaceUnlock/framework 
 | `hardware/dolby` | [hardware_dolby](https://github.com/decoder-dev/hardware_dolby/tree/fog-fixes) | `fog-fixes` | `b7c92b9e9e8005a5ef8ce8d0f5ef75d6f125aa9e` |
 | `packages/apps/FaceUnlock` | [platform_packages_apps_FaceUnlock](https://github.com/decoder-dev/platform_packages_apps_FaceUnlock/tree/fog-stability-20261113) | `fog-stability-20261113` | `ea3714d76796b51fb8d42fcd6748a522a7444dd5` |
 | `frameworks/base` | [android_frameworks_base_fog](https://github.com/decoder-dev/android_frameworks_base_fog/tree/lineage-24.0-faceunlock) | `lineage-24.0-faceunlock` | `899b393d4395ebdecabdd06b08b1209719ecf336` |
+| `frameworks/av` | [android_frameworks_av](https://github.com/decoder-dev/android_frameworks_av/tree/lineage-24.0-effectfix) | `lineage-24.0-effectfix` | `2b4b0b551df1a9b9ea6b4628af3b52c634c35a5d` |
+| `packages/apps/Settings` | [android_packages_apps_Settings](https://github.com/decoder-dev/android_packages_apps_Settings/tree/lineage-24.0-credits) | `lineage-24.0-credits` | `97a3e2bc0048f82637f13bc9f6a8ec7c97335c15` |
 | `kernel source (separate checkout)` | [kernel_xiaomi_sm6225](https://github.com/decoder-dev/kernel_xiaomi_sm6225/tree/Kuroha/BakaSU-update) | `Kuroha/BakaSU-update` | `83e24d23cff266c3df773710691d1b1939caab2b` |
 
 The ROM uses `device/xiaomi/fog-kernel/Image`, not an automatic kernel-source build.
