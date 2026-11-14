@@ -26,7 +26,7 @@ All overrides below are pinned. The main LineageOS platform still follows its co
 |---|---|---|---|
 | `device/xiaomi/fog` | [decoder-dev/device_xiaomi_fog](https://github.com/decoder-dev/device_xiaomi_fog/tree/fog-fixes) | `fog-fixes` | `4347bbd4ccfae85228c406829f0c82b1efd94e33` |
 | `vendor/xiaomi/fog` | [decoder-dev/vendor_xiaomi_fog](https://github.com/decoder-dev/vendor_xiaomi_fog/tree/fog-fixes) | `fog-fixes` | `93f5caf5e2d743d4c5eff5e2af13e2e0e0c9def7` |
-| `device/xiaomi/fog-kernel` | [decoder-dev/device_xiaomi_fog-kernel](https://github.com/decoder-dev/device_xiaomi_fog-kernel/tree/fog-fixes) | `fog-fixes` | `d31bdf2c7745f9f8dd4ed5ecef7fbf08a73ebff2` |
+| `device/xiaomi/fog-kernel` | [decoder-dev/device_xiaomi_fog-kernel](https://github.com/decoder-dev/device_xiaomi_fog-kernel/tree/fog-fixes) | `fog-fixes` | `d12c019a3f5ef426972bdcb045cfa42cfb1625b5` |
 | `hardware/dolby` | [decoder-dev/hardware_dolby](https://github.com/decoder-dev/hardware_dolby/tree/fog-fixes) | `fog-fixes` | `b7c92b9e9e8005a5ef8ce8d0f5ef75d6f125aa9e` |
 | `frameworks/av` | [Xun-Development/android_frameworks_av](https://github.com/Xun-Development/android_frameworks_av/tree/lineage-24.0-xun) | `lineage-24.0-xun` | `2b4b0b551df1a9b9ea6b4628af3b52c634c35a5d` |
 | `packages/apps/Settings` | [Xun-Development/android_packages_apps_Settings](https://github.com/Xun-Development/android_packages_apps_Settings/tree/lineage-24.0-xun) | `lineage-24.0-xun` | `97a3e2bc0048f82637f13bc9f6a8ec7c97335c15` |
@@ -45,14 +45,14 @@ All overrides below are pinned. The main LineageOS platform still follows its co
 | `hardware/qcom-caf/sm6225/display` | [Xun-Development/hardware_qcom_display](https://github.com/Xun-Development/hardware_qcom_display/tree/lineage-24.0-xun) | `lineage-24.0-xun` | `e09b41c709cb5e9916d767941d35c89cd3809566` |
 | `packages/apps/FaceUnlock` | [Xun-Development/platform_packages_apps_FaceUnlock](https://github.com/Xun-Development/platform_packages_apps_FaceUnlock/tree/lineage-24.0-xun) | `lineage-24.0-xun` | `ea3714d76796b51fb8d42fcd6748a522a7444dd5` |
 | `external/yifan` | [Xun-Development/platform_external_yifan](https://github.com/Xun-Development/platform_external_yifan/tree/lineage-24.0-xun) | `lineage-24.0-xun` | `b3996763c3f4bea151c52fa49a4ced2b7f4e26b8` |
-| `frameworks/base` | [Xun-Development/android_frameworks_base](https://github.com/Xun-Development/android_frameworks_base/tree/lineage-24.0-xun) | `lineage-24.0-xun` | `899b393d4395ebdecabdd06b08b1209719ecf336` |
+| `frameworks/base` | [Xun-Development/android_frameworks_base](https://github.com/Xun-Development/android_frameworks_base/tree/lineage-24.0-xun) | `lineage-24.0-xun` | `17c1a36bd4d76764099bd768de5dc14c5e5ac027` |
 
 ## Kernel sources
 
 ROM builds use the two prebuilt-kernel repositories listed above. Their sources are
 published separately:
 
-- fog: [decoder-dev/kernel_xiaomi_sm6225](https://github.com/decoder-dev/kernel_xiaomi_sm6225/tree/Kuroha/BakaSU-update), `83e24d23cff266c3df773710691d1b1939caab2b`.
+- fog: [decoder-dev/kernel_xiaomi_sm6225](https://github.com/decoder-dev/kernel_xiaomi_sm6225/tree/Kuroha/BakaSU-update), `40473e02cfd9c155b55384ae58e41d18afec2650`.
 - xun: [Xun-Development/kernel_xiaomi_xun](https://github.com/Xun-Development/kernel_xiaomi_xun/tree/android13-5.15-xun), `e6654bf2f6c2c3c7b6af8897baa2a86991d3b5ac`.
 
 See [AUDIT_XUN.md](AUDIT_XUN.md) for the xun findings, fixes and validation limits.
